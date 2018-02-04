@@ -1,0 +1,182 @@
+@font-face {
+	font-family: 'DroidSansRegular';
+	src: url('../font/DroidSans-webfont.eot');
+	src: url('../font/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/DroidSans-webfont.woff') format('woff'),
+		 url('../font/DroidSans-webfont.ttf') format('truetype'),
+		 url('../font/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DroidSansBold';
+	src: url('../font/DroidSans-Bold-webfont.eot');
+	src: url('../font/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/DroidSans-Bold-webfont.woff') format('woff'),
+		 url('../font/DroidSans-Bold-webfont.ttf') format('truetype'),
+		 url('../font/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'DroidSansRegular', Arial, sans-serif;
+	color:#333;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.container {
+	max-width: 960px;
+	width: 92%;
+	margin: 0 auto 51px auto;
+}
+
+header {
+	padding: 61px 0 21px 0;
+}
+
+header h1, header h2 {
+	margin: 21px 0;
+}
+
+header h1 {
+	color:#555;
+	font-family:'DroidSansBold', Arial, sans-serif;
+}
+
+header h2 {
+	color:#cecece;
+	font-style: italic;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+	line-height: 100%;
+}
+
+span.lastname {
+	font-variant:small-caps;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+section {
+	margin-top: 63px;
+}
+
+.row h3 {
+	font-size: 24px;
+	font-weight: normal;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 0 0 20px 60px;
+	margin-top: 0px;
+	position: relative;
+}
+
+.row h3:before {
+	content: ' ';
+	display: block;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	top: -15px;
+	width: 50px;
+
+	background-color: #33a4c9;
+	border-radius: 25px;
+
+	background-image:url('../bullets.svg');
+	background-repeat: no-repeat;
+}
+
+.project h3:before {
+	background-position: 10px -311px;
+}
+
+.skills h3:before {
+	background-position: 10px -229px;
+}
+
+.jobs h3:before {
+	background-position: 10px -70px;
+}
+
+.education h3:before {
+	background-position: 10px -148px;
+}
+
+.activities h3:before {
+	background-position: 9px -547px;
+}
+
+.contact h3:before {
+	background-position: 10px 12px;
+}
+
+.listing > ol > li > * {
+	margin-left: 41px;
+}
+
+h4, .listing > ol > li > h4 {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #147393;
+	margin: 23px 0 4px 0;
+}
+
+.location, .time {
+	margin: 2px 2px 2px 16px !important;
+}
+
+.location {
+	padding-left: 25px;
+	background-image:url('../bullets.svg');
+	background-repeat: no-repeat;
+	background-size: 16px;
+	background-position: 5px -382px;
+}
+
+.time {
+	padding-left: 25px;
+	background-image:url('../bullets.svg');
+	background-repeat: no-repeat;
+	background-size: 16px;
+	background-position: 5px -255px;
+}
+
+.phone {
+	padding-left: 25px;
+	background-image:url('../bullets.svg');
+	background-repeat: no-repeat;
+	background-size: 16px;
+	background-position: 5px -340px;
+}
+
+.mail {
+	padding-left: 25px;
+	background-image:url('../bullets.svg');
+	background-repeat: no-repeat;
+	background-size: 16px;
+	background-position: 5px -211px;
+}
+
+.publication {
+	padding-left: 25px;
+	background-image:url('../bullets.svg');
+	background-repeat: no-repeat;
+	background-size: 16px;
+	background-position: 5px -468px;
+}
+
+#langswitch {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
